@@ -1,6 +1,6 @@
 {
     "name": "2024148053.github.io",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "scripts": {
         "format": "prettier --check .",
         "format:fix": "prettier --write .",
