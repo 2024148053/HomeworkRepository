@@ -1,0 +1,20 @@
+{
+    "name": "2024148053.github.io",
+    "version": "0.0.0",
+    "scripts": {
+        "format": "prettier --check .",
+        "format:fix": "prettier --write .",
+        "style": "stylelint **/*.css",
+        "style:fix": "stylelint --fix **/*.css"
+    },
+    "devDependencies": {
+        "gitmoji-cli": "^9.5.0",
+        "lefthook": "^1.11.5",
+        "npm-check-updates": "^17.1.16",
+        "prettier": "^3.5.3",
+        "sort-package-json": "^3.0.0",
+        "stylelint": "^16.17.0",
+        "stylelint-config-recess-order": "^6.0.0",
+        "stylelint-config-standard": "^37.0.0"
+    }
+}

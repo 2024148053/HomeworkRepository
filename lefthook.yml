@@ -1,0 +1,9 @@
+pre-commit:
+    parallel: true
+    commands:
+        prettier:
+            glob: '**'
+            run: bun run format
+        stylelint:
+            glob: '**/*.css'
+            run: bun run style
